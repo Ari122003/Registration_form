@@ -2,15 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-body{
-  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
-  height: 100%;
+body {
+	background: linear-gradient(
+		179.4deg,
+		rgb(12, 20, 69) -16.9%,
+		rgb(71, 30, 84) 119.9%
+	);
+	min-height: 100vh;
 }
 
-.form{
-  background: rgba(255, 255, 255, 0.114);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+.form {
+	background: rgba(255, 255, 255, 0.114);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
 }
